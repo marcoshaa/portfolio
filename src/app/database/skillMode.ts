@@ -1,4 +1,4 @@
-export const skills = [
+export const skill = [
     {name:'PHP', icon:'', },
     {name:'HTML', icon:'', },
     {name:'CSS', icon:'', },
