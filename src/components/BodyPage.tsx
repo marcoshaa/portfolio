@@ -1,25 +1,30 @@
+"use client"
 import React from 'react';
 import { menu } from '../database/menuItens';
 
 export const BodyMain = () =>{
     return (
         <>
-            <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-[#00242C]">
+            <main className="flex overflow-auto h-[90vh] flex-col items-center justify-between bg-[#00242C]">
                 <h1>hello word</h1>
             </main>
         </>
     );
 }
-
 export const NavBar = () => {
 
+    const handleClick = () => {
+        alert('Menu clicado!');
+    };
+    
+
   return (
-    <nav className="flex justify-center bg-[#00242C]">
-      <div className="m-5 w-80 h-12 rounded-full p-0.5 bg-gradient-to-tr from-gray-700 via-gray-900 to-black">
-        <div className="flex flex-col justify-center items-center flex-initial h-full w-full bg-[#00D1FF] rounded-full">
+    <nav className="flex h-[10vh] justify-center bg-[#00242C]">
+      <div className="m-5 w-[40vh] h-12 rounded-full p-0.5 bg-gradient-to-tr from-gray-700 via-gray-900 to-black">
+        <div className="flex flex-col justify-center items-center flex-initial h-full w-full bg-[#00D1FF] rounded-lg">
           <ul className="flex justify-evenly w-full">
             {menu.map((item, index) => (
-              <li key={index} className={`list active`}>
+              <li key={index} className={`list active m-[3%]`} onClick={handleClick}>
                 <a href={item.link} className="relative">
                   <span>
                     {item.icon}
