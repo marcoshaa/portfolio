@@ -34,7 +34,7 @@
     text-align: center;
     font-weight: 500;
 }
-.navigation ul li a .icon {
+.navigation ul li a .iconMenu {
     position: relative;
     display: block;
     line-height: 75px;
@@ -43,13 +43,13 @@
     transition: 0.5s;
     color: var(--textColor);
 }
-.navigation ul li.active a .icon {
+.navigation ul li.active a .iconMenu {
     transform: translateY(-32px);
 }
 .navigation ul li a .text {
     position: absolute;
     color: var(--textColor);
-    font-weight: 400;
+    font-weight: bold;
     font-size: 0.75em;
     letter-spacing: 0.05em;
     transition: 0.5s;
@@ -58,7 +58,7 @@
 }
 .navigation ul li.active a .text {
 opacity: 1;
-transform: translateY(10px);
+transform: translateY(15px);
 }
 .indicator {
 position: absolute;

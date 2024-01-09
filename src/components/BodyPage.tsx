@@ -58,7 +58,7 @@ export const NavBar = () => {
                     
                     >
                     <a href={item.link} className="relative">
-                    <span className="icon">
+                    <span className="iconMenu">
                         {item.icon}
                     </span>
                     <span className="text">
