@@ -12,9 +12,9 @@ const wIcon = 20;
 const hIcon = 20;
 
 export const menu =[
-    {name:'home', icon: <SVGHouse width={wIcon} height={hIcon}/>, link:'#home'},
-    {name:'me', icon: <SVGPerson width={wIcon} height={hIcon}/>, link:'#aboutme'},
-    {name:'experience', icon: <SVGAward width={wIcon} height={hIcon}/>, link:'#experience'},
-    {name:'project', icon: <SVGHeart width={wIcon} height={hIcon}/>, link:'#project'},
-    {name:'contact', icon: <SVGEnvelope width={wIcon} height={hIcon}/>, link:'#contact'},
+    {name:'Home', icon: <SVGHouse width={wIcon} height={hIcon}/>, link:'#home'},
+    {name:'Me', icon: <SVGPerson width={wIcon} height={hIcon}/>, link:'#aboutme'},
+    {name:'Experience', icon: <SVGAward width={wIcon} height={hIcon}/>, link:'#experience'},
+    {name:'Project', icon: <SVGHeart width={wIcon} height={hIcon}/>, link:'#project'},
+    {name:'Contact', icon: <SVGEnvelope width={wIcon} height={hIcon}/>, link:'#contact'},
 ];
