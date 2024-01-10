@@ -3,6 +3,7 @@ import React,{ useState, useEffect } from 'react';
 import { menu } from '../database/menuItens';
 import '../style/menu.css';
 import activeLink from '../js/menu';
+import { SectionOne } from './section/sectionPt';
 
 export const BodyMain = () => {
     useEffect(() => {
@@ -12,10 +13,10 @@ export const BodyMain = () => {
 
     return (
         <>
-            <main className="flex overflow-auto h-[90vh] flex-col items-center justify-between bg-[#00242C]">
-                <section id="home" className="">
-                    <h1>Section 1</h1>
-                    <div className='h-[120vh] bg-[#fff]'></div>
+            <div className="flex items-end h-[4vh] justify-center bg-[#00242C]"></div>
+            <main className="flex overflow-auto h-[85vh] flex-col items-center justify-between bg-[#00242C]">
+                <section id="home" className="relative">
+                    <SectionOne/>
                 </section>
                 <br/>
                 <section id="aboutme" className="">
@@ -47,7 +48,7 @@ export const BodyMain = () => {
 
 export const NavBar = () => {
   return (
-    <nav className="flex items-end h-[10vh] justify-center bg-[#00242C]">
+    <nav className="flex items-end h-[11vh] justify-center bg-[#00242C]">
         <div className="navigation">
           <ul>
             {menu.map((item, index) => (
