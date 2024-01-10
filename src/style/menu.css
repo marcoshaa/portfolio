@@ -1,6 +1,14 @@
+@font-face {
+    font-family: 'Salsa';
+    src: url('/font/Salsa.ttf') format('truetype');
+}
+body{
+    font-family: 'Salsa', sans-serif !important;
+}
 :root {
     --clr: #00242C;
     --textColor: #fff;
+    --textColorDest: #00D1FF;
 }
 
 .navigation {
@@ -57,40 +65,43 @@
     transform: translateY(20px);
 }
 .navigation ul li.active a .text {
-opacity: 1;
-transform: translateY(15px);
+    opacity: 1;
+    transform: translateY(15px);
 }
+
 .indicator {
-position: absolute;
-top: -50%;
-width: 70px;
-height: 70px;
-background: rgb(59, 135, 197);
-border-radius: 50%;
-border: 6px solid var(--clr);
-transition: 0.5s;
+    position: absolute;
+    top: -40%;
+    width: 60px;
+    height: 60px;
+    background: rgb(59, 135, 197);
+    border-radius: 50%;    
+    border: 6px solid var(--clr);
+    transition: 0.5s;
+    margin-left: 5px;
 }
+
 .indicator::before {
-content: "";
-position: absolute;
-top: 50%;
-left: -22px;
-width: 20px;
-height: 20px;
-background: transparent;
-border-top-right-radius: 20px;
-box-shadow: 1px -10px 0 0 var(--clr);
+    content: "";
+    position: absolute;
+    top: 46%;
+    left: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-right-radius: 20px;
+    box-shadow: 1px -10px 0 0 var(--clr);
 }
 .indicator::after {
-content: "";
-position: absolute;
-top: 50%;
-right: -22px;
-width: 20px;
-height: 20px;
-background: transparent;
-border-top-left-radius: 20px;
-box-shadow: -1px -10px 0 0 var(--clr);
+    content: "";
+    position: absolute;
+    top: 46%;
+    right: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-left-radius: 20px;
+    box-shadow: -1px -10px 0 0 var(--clr);
 }
 
 /* Indicator Transitions */
@@ -108,4 +119,8 @@ transform: translateX(calc(70px * 3));
 }
 .navigation ul li:nth-child(5).active ~ .indicator {
 transform: translateX(calc(70px * 4));
+}
+
+.titleMess{
+    color: var(--textColorDest);
 }
