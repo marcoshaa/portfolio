@@ -52,8 +52,13 @@ export const SectionOne = () =>{
 
             <div className="flex flex-col items-start relative bottom-[5vh]">
                 <p className="titleMess">Hello, I'm</p>
-                <p className="titleMess text-5xl">Marcos H.</p>
+                <p className="titleMess text-5xl font-black">Marcos H.</p>
                 <p className="titleMess">and this is my portfolio</p>
+            </div>
+
+            <div className=" flex flex-col items-center">
+                <p className="titleMess">web developer and  software engineer</p>
+                <a className="bg-[#00d1ff] p-[10px] mt-[20px] rounded-[10px] w-fit" href="/cv/marcos.pdf" download="MarcosH_cv" target="_blank"> download cv</a>
             </div>
         </>
     );

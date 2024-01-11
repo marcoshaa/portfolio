@@ -15,7 +15,7 @@ body{
     position: relative;
     width: 400px;
     height: 70px;
-    background: #00D1FF;
+    background: #1d84a3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,7 +74,7 @@ body{
     top: -40%;
     width: 60px;
     height: 60px;
-    background: rgb(59, 135, 197);
+    background: #1d84a3;
     border-radius: 50%;    
     border: 6px solid var(--clr);
     transition: 0.5s;
