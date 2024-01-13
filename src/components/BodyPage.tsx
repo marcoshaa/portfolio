@@ -14,7 +14,7 @@ export const BodyMain = () => {
     return (
         <>
             <div className="flex items-end h-[4vh] justify-center bg-[#00242C]"></div>
-            <main className="flex overflow-auto h-[85vh] flex-col items-center justify-between bg-[#00242C]">
+            <main className="flex overflow-auto h-[80vh] flex-col items-center justify-between bg-[#00242C]">
                 <section id="home" className="relative">
                     <SectionOne/>
                 </section>

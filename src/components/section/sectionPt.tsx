@@ -13,11 +13,21 @@ export const SectionOne = () =>{
         <>
             <div className="rounded-full h-[30vh] w-[30vh] bg-[#677d8f40]">            
                 <div className="absolute">
-                    <img className="object-cover" src="/img/Ma.png" alt="" />            
+                    <img className="object-cover drop-shadow-[4px_0px_5px_#1d84a3]" src="/img/Ma.png" alt="" />            
                     <div className="absolute bottom-[-1vh] h-[50vh] w-[50vh] bg-gradient-to-t from-[#00242C] from-10% via-#00242C via-30% to-#00242C to-50%"></div>
                 </div>
             </div>
+            <div className="flex flex-col items-start relative bottom-[5vh]">
+                <p className="titleMess">Hello, I'm</p>
+                <p className="titleMess text-5xl font-black">Marcos H.</p>
+                <p className="titleMess">and this is my portfolio</p>
+            </div>
 
+            <div className=" flex flex-col items-center">
+                <p className="titleMess">web developer and  software engineer</p>
+                <a className="bg-[#00d1ff] p-[10px] mt-[20px] rounded-[10px] w-fit" href="/cv/marcos.pdf" download="MarcosH_cv" target="_blank"> download cv</a>
+            </div>
+            
             <div className="flex justify-center items-center absolute top-[10%] left-[98%] rounded-full h-[5vh] w-[5vh] bg-[#fff]">
                 <SVGBootstrap width={30}/>
             </div>
@@ -48,17 +58,6 @@ export const SectionOne = () =>{
 
             <div className="flex justify-center items-center absolute top-[13vh] left-[42vh] rounded-full h-[7vh] w-[7vh] bg-[#fff]">
                 <SVGNodejs width={35}/>
-            </div>
-
-            <div className="flex flex-col items-start relative bottom-[5vh]">
-                <p className="titleMess">Hello, I'm</p>
-                <p className="titleMess text-5xl font-black">Marcos H.</p>
-                <p className="titleMess">and this is my portfolio</p>
-            </div>
-
-            <div className=" flex flex-col items-center">
-                <p className="titleMess">web developer and  software engineer</p>
-                <a className="bg-[#00d1ff] p-[10px] mt-[20px] rounded-[10px] w-fit" href="/cv/marcos.pdf" download="MarcosH_cv" target="_blank"> download cv</a>
             </div>
         </>
     );
