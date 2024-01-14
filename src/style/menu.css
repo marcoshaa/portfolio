@@ -124,3 +124,9 @@ transform: translateX(calc(70px * 4));
 .titleMess{
     color: var(--textColorDest);
 }
+
+.titleSection{
+    color: var(--textColorDest);
+    font-size: 4vh;
+    text-align: center;
+}

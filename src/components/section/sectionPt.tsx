@@ -11,13 +11,12 @@ import SVGNodejs from '@/icon/SVGNodejs';
 export const SectionOne = () =>{
     return(
         <>
-            <div className="rounded-full h-[30vh] w-[30vh] bg-[#677d8f40]">            
-                <div className="absolute">
-                    <img className="object-cover drop-shadow-[4px_0px_5px_#1d84a3]" src="/img/Ma.png" alt="" />            
-                    <div className="absolute bottom-[-1vh] h-[50vh] w-[50vh] bg-gradient-to-t from-[#00242C] from-10% via-#00242C via-30% to-#00242C to-50%"></div>
-                </div>
+            <div className="rounded-full h-[40vh] w-[40vh] bg-[#677d8f40]">            
+                <img className="object-cover relative bottom-[7vh] left-[1vh] h-[45vh] drop-shadow-[4px_0px_5px_#1d84a3]" src="/img/Ma.png" alt="" />            
+                <div className="absolute top-[-4vh] h-[50vh] w-[50vh] bg-gradient-to-t from-[#00242C] from-10% via-#00242C via-30% to-#00242C to-50%"></div>
             </div>
-            <div className="flex flex-col items-start relative bottom-[5vh]">
+
+            <div className="flex flex-col items-start relative bottom-[10vh] left-[8vh]">
                 <p className="titleMess">Hello, I'm</p>
                 <p className="titleMess text-5xl font-black">Marcos H.</p>
                 <p className="titleMess">and this is my portfolio</p>

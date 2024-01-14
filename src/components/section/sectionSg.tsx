@@ -9,6 +9,7 @@ export const SectionSeg = () =>{
                 </div>
 
                 <div className="flex">
+                    <div className=""></div>
 
                 </div>
             </div>

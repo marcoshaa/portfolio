@@ -1,4 +1,7 @@
-/* styles/styles.css */
+body{
+    background: #00242c;
+}
+
 ::-webkit-scrollbar {
     width: 12px;
 }

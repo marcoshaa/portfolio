@@ -16,30 +16,34 @@ export const BodyMain = () => {
             <div className="flex items-end h-[4vh] justify-center bg-[#00242C]"></div>
             <main className="flex overflow-auto h-[80vh] flex-col items-center justify-between bg-[#00242C]">
                 <section id="home" className="relative">
-                    <SectionOne/>
+                    <div className='h-[80vh]'>
+                        <h1 className="titleSection">Home</h1>
+                        <SectionOne/>
+                    </div>
                 </section>
-                <br/>
-                <section id="aboutme" className="">
-                    <h1>Section 2</h1>
-                    <div className='h-[120vh] bg-[#000]'></div>
-                </section>
-                <br />
                 
-                <section id="experience" className="">
-                    <h1>Section 3</h1>
-                    <div className='h-[120vh] bg-[#0C0]'></div>
+                <section id="aboutme" className="">                    
+                    <div className='h-[80vh] bg-[#000]'>
+                        <h1 className="titleSection">About Me</h1>
+                    </div>
                 </section>
-                <br />
+                
+                <section id="experience" className="">                    
+                    <div className='h-[80vh] bg-[#0C0]'>
+                        <h1 className="titleSection">Experience</h1>
+                    </div>
+                </section>
 
                 <section id="project" className="">
-                    <h1>Section 4</h1>
-                    <div className='h-[120vh] bg-[#0CC]'></div>
+                    <div className='h-[80vh] bg-[#0C0]'>
+                        <h1 className="titleSection">Projects</h1>
+                    </div>
                 </section>
-                <br />
 
                 <section id="contact" className="">
-                    <h1>Section 5</h1>
-                    <div className='h-[120vh] bg-[#ff9800]'></div>
+                    <div className='h-[80vh] bg-[#0C0]'>
+                        <h1 className="titleSection">Contact</h1>
+                    </div>
                 </section>
             </main>
         </>
@@ -48,7 +52,7 @@ export const BodyMain = () => {
 
 export const NavBar = () => {
   return (
-    <nav className="flex items-end h-[11vh] justify-center bg-[#00242C]">
+    <nav className="flex items-end h-[14vh] justify-center bg-[#00242C]">
         <div className="navigation">
           <ul>
             {menu.map((item, index) => (
