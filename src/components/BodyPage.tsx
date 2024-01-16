@@ -4,6 +4,7 @@ import { menu } from '../database/menuItens';
 import '../style/menu.css';
 import activeLink from '../js/menu';
 import { SectionOne } from './section/sectionPt';
+import { SectionSeg } from './section/sectionSg';
 
 export const BodyMain = () => {
     useEffect(() => {
@@ -22,26 +23,27 @@ export const BodyMain = () => {
                     </div>
                 </section>
                 
-                <section id="aboutme" className="">                    
-                    <div className='h-[80vh] bg-[#000]'>
+                <section id="aboutme" className="max-sm:my-[5vh]">                    
+                    <div className='h-[80vh]'>
                         <h1 className="titleSection">About Me</h1>
+                        <SectionSeg/>
                     </div>
                 </section>
                 
-                <section id="experience" className="">                    
-                    <div className='h-[80vh] bg-[#0C0]'>
+                <section id="experience" className="max-sm:my-[5vh]">                    
+                    <div className='h-[80vh]'>
                         <h1 className="titleSection">Experience</h1>
                     </div>
                 </section>
 
-                <section id="project" className="">
-                    <div className='h-[80vh] bg-[#0C0]'>
+                <section id="project" className="max-sm:my-[5vh]">
+                    <div className='h-[80vh]'>
                         <h1 className="titleSection">Projects</h1>
                     </div>
                 </section>
 
-                <section id="contact" className="">
-                    <div className='h-[80vh] bg-[#0C0]'>
+                <section id="contact" className="max-sm:my-[5vh]">
+                    <div className='h-[80vh]'>
                         <h1 className="titleSection">Contact</h1>
                     </div>
                 </section>
