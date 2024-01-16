@@ -36,7 +36,7 @@ export const SectionOne = () =>{
                 </div>
 
                 <div className="flex justify-center items-center lg:absolute  top-[0%] right-[110%] rounded-full h-[12vh] w-[12vh] bg-[#fff] max-sm: h-[9vh] w-[9vh]">
-                    <SVGJs width={70}/>
+                    <SVGJs width={50}/>
                 </div>
 
                 <div className="flex justify-center items-center lg:absolute  top-[40%] right-[112%] rounded-full h-[9vh] w-[9vh] bg-[#fff] max-sm: h-[9vh] w-[9vh]">
