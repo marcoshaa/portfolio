@@ -30,7 +30,7 @@ export const SectionOne = () =>{
                 <p className="titleMess">web developer and  software engineer</p>
                 <a className="bg-[#00d1ff] p-[10px] mt-[20px] rounded-[10px] w-fit" href="/cv/marcos.pdf" download="MarcosH_cv" target="_blank"> download cv</a>
             </div>
-            <div className="grid  grid-cols-3 gap-4 justify-items-center">
+            <div className="grid grid-cols-3 gap-4 justify-items-center">
                 <div className="flex justify-center items-center lg:absolute  top-[10vh] left-[34vh] rounded-full h-[9vh] w-[9vh] bg-[#fff] max-sm: h-[9vh] w-[9vh]">
                     <SVGBootstrap width={50}/>
                 </div>
